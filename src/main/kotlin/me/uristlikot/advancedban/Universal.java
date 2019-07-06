@@ -78,13 +78,7 @@ public class Universal {
         mi.setCommandExecutor("systemprefs");
         mi.setCommandExecutor("unpunish");
 
-        String upt = "You have the newest version";
-        String response = getFromURL("https://api.spigotmc.org/legacy/update.php?resource=8695");
-        if (response == null) {
-            upt = "Failed to check for updates :(";
-        } else if ((!mi.getVersion().startsWith(response))) {
-            upt = "There is a new version available! [" + response + "]";
-        }
+
 
         if (mi.getBoolean(mi.getConfig(), "DetailedEnableMessage", true)) {
             mi.log("\n \n&8[]=====[&7Enabling AdvancedBan&8]=====[]"
@@ -99,7 +93,6 @@ public class Universal {
                     + "\n&8|   &cGithub: &7https://github.com/DevLeoko/AdvancedBan/issues"
                     + "\n&8|   &cDiscord: &7https://discord.gg/ycDG6rS"
                     + "\n&8| &cUpdate:"
-                    + "\n&8|   &7" + upt
                     + "\n&8[]================================[]&r\n ");
         } else {
             mi.log("&cEnabling AdvancedBan on Version &7" + mi.getVersion());
