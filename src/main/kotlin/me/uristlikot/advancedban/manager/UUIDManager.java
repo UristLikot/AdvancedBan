@@ -1,7 +1,7 @@
-package me.leoko.advancedban.manager;
+package me.uristlikot.advancedban.manager;
 
-import me.leoko.advancedban.MethodInterface;
-import me.leoko.advancedban.Universal;
+import me.uristlikot.advancedban.MethodInterface;
+import me.uristlikot.advancedban.Universal;
 
 import java.io.IOException;
 import java.io.InputStreamReader;

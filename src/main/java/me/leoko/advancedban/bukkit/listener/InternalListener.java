@@ -2,7 +2,7 @@ package me.leoko.advancedban.bukkit.listener;
 
 import java.util.Date;
 import me.leoko.advancedban.bukkit.event.*;
-import me.leoko.advancedban.utils.PunishmentType;
+import me.uristlikot.advancedban.PunishmentType;
 import org.bukkit.BanList;
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;

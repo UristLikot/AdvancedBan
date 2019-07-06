@@ -1,15 +1,12 @@
-package me.leoko.advancedban.manager;
+package me.uristlikot.advancedban.manager;
+
+import me.uristlikot.advancedban.*;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
-import me.leoko.advancedban.MethodInterface;
-import me.leoko.advancedban.Universal;
-import me.leoko.advancedban.utils.Punishment;
-import me.leoko.advancedban.utils.PunishmentType;
-import me.leoko.advancedban.utils.SQLQuery;
 
 /**
  * Created by Leoko @ dev.skamps.eu on 12.07.2016.

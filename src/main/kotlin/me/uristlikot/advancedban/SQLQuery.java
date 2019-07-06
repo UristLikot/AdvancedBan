@@ -1,6 +1,6 @@
-package me.leoko.advancedban.utils;
+package me.uristlikot.advancedban;
 
-import me.leoko.advancedban.manager.DatabaseManager;
+import me.uristlikot.advancedban.manager.DatabaseManager;
 
 /**
  * Created by Leo on 29.07.2017.

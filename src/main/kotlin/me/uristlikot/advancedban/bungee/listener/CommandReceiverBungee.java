@@ -1,7 +1,7 @@
-package me.leoko.advancedban.bungee.listener;
+package me.uristlikot.advancedban.bungee.listener;
 
-import me.leoko.advancedban.bungee.BungeeMain;
-import me.leoko.advancedban.manager.CommandManager;
+import me.uristlikot.advancedban.bungee.BungeeMain;
+import me.uristlikot.advancedban.manager.CommandManager;
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.plugin.Command;
 

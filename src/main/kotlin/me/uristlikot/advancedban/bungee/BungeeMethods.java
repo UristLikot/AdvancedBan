@@ -1,28 +1,19 @@
-package me.leoko.advancedban.bungee;
+package me.uristlikot.advancedban.bungee;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonNull;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.imaginarycode.minecraft.redisbungee.RedisBungee;
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.nio.file.Files;
-import java.util.List;
-import java.util.UUID;
-import java.util.concurrent.TimeUnit;
-import me.leoko.advancedban.MethodInterface;
-import me.leoko.advancedban.Universal;
-import me.leoko.advancedban.bungee.event.PunishmentEvent;
-import me.leoko.advancedban.bungee.event.RevokePunishmentEvent;
-import me.leoko.advancedban.bungee.listener.CommandReceiverBungee;
-import me.leoko.advancedban.manager.DatabaseManager;
-import me.leoko.advancedban.manager.PunishmentManager;
-import me.leoko.advancedban.manager.UUIDManager;
-import me.leoko.advancedban.utils.Punishment;
+import me.uristlikot.advancedban.MethodInterface;
+import me.uristlikot.advancedban.Punishment;
+import me.uristlikot.advancedban.Universal;
+import me.uristlikot.advancedban.bungee.event.PunishmentEvent;
+import me.uristlikot.advancedban.bungee.event.RevokePunishmentEvent;
+import me.uristlikot.advancedban.bungee.listener.CommandReceiverBungee;
+import me.uristlikot.advancedban.manager.DatabaseManager;
+import me.uristlikot.advancedban.manager.PunishmentManager;
+import me.uristlikot.advancedban.manager.UUIDManager;
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.chat.TextComponent;
@@ -32,6 +23,16 @@ import net.md_5.bungee.config.Configuration;
 import net.md_5.bungee.config.ConfigurationProvider;
 import net.md_5.bungee.config.YamlConfiguration;
 import org.bstats.bungeecord.Metrics;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.nio.file.Files;
+import java.util.List;
+import java.util.UUID;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by Leoko @ dev.skamps.eu on 23.07.2016.

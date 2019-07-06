@@ -1,6 +1,6 @@
-package me.leoko.advancedban.manager;
+package me.uristlikot.advancedban.manager;
 
-import me.leoko.advancedban.Universal;
+import me.uristlikot.advancedban.Universal;
 
 import java.util.Date;
 

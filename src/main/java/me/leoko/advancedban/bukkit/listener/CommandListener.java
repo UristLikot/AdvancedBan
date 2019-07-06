@@ -1,6 +1,6 @@
 package me.leoko.advancedban.bukkit.listener;
 
-import me.leoko.advancedban.Universal;
+import me.uristlikot.advancedban.Universal;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;

@@ -1,6 +1,6 @@
 package me.leoko.advancedban.bukkit.event;
 
-import me.leoko.advancedban.utils.Punishment;
+import me.uristlikot.advancedban.Punishment;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 

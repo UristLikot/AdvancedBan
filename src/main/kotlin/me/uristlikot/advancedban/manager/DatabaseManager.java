@@ -1,15 +1,12 @@
-package me.leoko.advancedban.manager;
+package me.uristlikot.advancedban.manager;
+
+import me.uristlikot.advancedban.MethodInterface;
+import me.uristlikot.advancedban.SQLQuery;
+import me.uristlikot.advancedban.Universal;
 
 import java.io.File;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import me.leoko.advancedban.MethodInterface;
-import me.leoko.advancedban.Universal;
-import me.leoko.advancedban.utils.SQLQuery;
+import java.sql.*;
 
 public class DatabaseManager {
 

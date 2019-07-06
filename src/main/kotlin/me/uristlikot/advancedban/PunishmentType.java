@@ -1,4 +1,4 @@
-package me.leoko.advancedban.utils;
+package me.uristlikot.advancedban;
 
 /**
  * Created by Leoko @ dev.skamps.eu on 30.05.2016.

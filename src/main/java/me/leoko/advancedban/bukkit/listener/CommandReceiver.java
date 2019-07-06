@@ -1,6 +1,6 @@
 package me.leoko.advancedban.bukkit.listener;
 
-import me.leoko.advancedban.manager.CommandManager;
+import me.uristlikot.advancedban.manager.CommandManager;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;

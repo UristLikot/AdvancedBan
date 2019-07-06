@@ -1,9 +1,10 @@
-package me.leoko.advancedban.manager;
+package me.uristlikot.advancedban.manager;
+
+import me.uristlikot.advancedban.MethodInterface;
+import me.uristlikot.advancedban.Universal;
 
 import java.util.ArrayList;
 import java.util.List;
-import me.leoko.advancedban.MethodInterface;
-import me.leoko.advancedban.Universal;
 
 /**
  * Created by Leoko @ dev.skamps.eu on 13.07.2016.

@@ -1,13 +1,14 @@
-package me.leoko.advancedban.manager;
+package me.uristlikot.advancedban.manager;
+
+import me.uristlikot.advancedban.MethodInterface;
+import me.uristlikot.advancedban.Universal;
+import org.apache.commons.io.FileUtils;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.util.Arrays;
 import java.util.List;
-import me.leoko.advancedban.MethodInterface;
-import me.leoko.advancedban.Universal;
-import org.apache.commons.io.FileUtils;
 
 /**
  * Created by Leo on 07.08.2017.

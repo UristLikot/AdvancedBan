@@ -1,23 +1,25 @@
-package me.leoko.advancedban.bungee.listener;
+package me.uristlikot.advancedban.bungee.listener;
 
 import com.google.common.io.ByteArrayDataInput;
 import com.google.common.io.ByteArrayDataOutput;
 import com.google.common.io.ByteStreams;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSyntaxException;
-import java.util.Arrays;
-import java.util.List;
-import me.leoko.advancedban.Universal;
-import me.leoko.advancedban.bungee.event.*;
-import me.leoko.advancedban.manager.TimeManager;
-import me.leoko.advancedban.manager.UUIDManager;
-import me.leoko.advancedban.utils.Punishment;
-import me.leoko.advancedban.utils.PunishmentType;
+import me.uristlikot.advancedban.Punishment;
+import me.uristlikot.advancedban.PunishmentType;
+import me.uristlikot.advancedban.Universal;
+import me.uristlikot.advancedban.bungee.event.PunishmentEvent;
+import me.uristlikot.advancedban.bungee.event.RevokePunishmentEvent;
+import me.uristlikot.advancedban.manager.TimeManager;
+import me.uristlikot.advancedban.manager.UUIDManager;
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.api.event.PluginMessageEvent;
 import net.md_5.bungee.api.plugin.Listener;
 import net.md_5.bungee.event.EventHandler;
+
+import java.util.Arrays;
+import java.util.List;
 
 /**
  *

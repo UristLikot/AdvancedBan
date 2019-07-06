@@ -1,9 +1,8 @@
-package me.leoko.advancedban;
+package me.uristlikot.advancedban;
 
 import java.io.File;
 import java.io.InputStreamReader;
 import java.util.List;
-import me.leoko.advancedban.utils.Punishment;
 
 /**
  * Created by Leoko @ dev.skamps.eu on 23.07.2016.

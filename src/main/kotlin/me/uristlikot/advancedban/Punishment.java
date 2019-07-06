@@ -1,16 +1,15 @@
-package me.leoko.advancedban.utils;
+package me.uristlikot.advancedban;
+
+import me.uristlikot.advancedban.manager.DatabaseManager;
+import me.uristlikot.advancedban.manager.MessageManager;
+import me.uristlikot.advancedban.manager.PunishmentManager;
+import me.uristlikot.advancedban.manager.TimeManager;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
-import me.leoko.advancedban.MethodInterface;
-import me.leoko.advancedban.Universal;
-import me.leoko.advancedban.manager.DatabaseManager;
-import me.leoko.advancedban.manager.MessageManager;
-import me.leoko.advancedban.manager.PunishmentManager;
-import me.leoko.advancedban.manager.TimeManager;
 
 /**
  * Created by Leoko @ dev.skamps.eu on 30.05.2016.

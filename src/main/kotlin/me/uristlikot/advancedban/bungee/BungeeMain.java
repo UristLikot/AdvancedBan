@@ -1,8 +1,11 @@
-package me.leoko.advancedban.bungee;
+package me.uristlikot.advancedban.bungee;
 
 import com.imaginarycode.minecraft.redisbungee.RedisBungee;
-import me.leoko.advancedban.Universal;
-import me.leoko.advancedban.bungee.listener.*;
+import me.uristlikot.advancedban.Universal;
+import me.uristlikot.advancedban.bungee.listener.ChatListenerBungee;
+import me.uristlikot.advancedban.bungee.listener.ConnectionListenerBungee;
+import me.uristlikot.advancedban.bungee.listener.InternalListener;
+import me.uristlikot.advancedban.bungee.listener.PubSubMessageListener;
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.plugin.Plugin;
 

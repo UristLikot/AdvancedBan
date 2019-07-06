@@ -1,6 +1,9 @@
-package me.leoko.advancedban.manager;
+package me.uristlikot.advancedban.manager;
 
 import com.google.common.base.Charsets;
+import me.uristlikot.advancedban.Universal;
+import org.apache.commons.io.FileUtils;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -11,8 +14,6 @@ import java.util.Calendar;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.zip.GZIPOutputStream;
-import me.leoko.advancedban.Universal;
-import org.apache.commons.io.FileUtils;
 
 /**
  *

@@ -1,6 +1,7 @@
 package me.leoko.advancedban.bukkit;
 
-import me.leoko.advancedban.Universal;
+import me.uristlikot.advancedban.MethodInterface;
+import me.uristlikot.advancedban.Universal;
 import me.leoko.advancedban.bukkit.listener.ChatListener;
 import me.leoko.advancedban.bukkit.listener.CommandListener;
 import me.leoko.advancedban.bukkit.listener.ConnectionListener;
@@ -20,7 +21,7 @@ public class BukkitMain extends JavaPlugin {
     @Override
     public void onEnable() {
         instance = this;
-        Universal.get().setup(new BukkitMethods());
+        Universal.get().setup((MethodInterface) new BukkitMethods());
 
         ConnectionListener connListener = new ConnectionListener();
         this.getServer().getPluginManager().registerEvents(connListener, this);

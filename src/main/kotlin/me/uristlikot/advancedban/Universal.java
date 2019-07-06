@@ -1,7 +1,12 @@
-package me.leoko.advancedban;
+package me.uristlikot.advancedban;
 
 import com.google.common.base.Charsets;
 import com.google.gson.Gson;
+import me.uristlikot.advancedban.bungee.BungeeMethods;
+import me.uristlikot.advancedban.manager.*;
+import net.md_5.bungee.api.ChatColor;
+import org.apache.commons.io.FileUtils;
+
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
@@ -14,16 +19,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
-import me.leoko.advancedban.bungee.BungeeMethods;
-import me.leoko.advancedban.manager.DatabaseManager;
-import me.leoko.advancedban.manager.LogManager;
-import me.leoko.advancedban.manager.PunishmentManager;
-import me.leoko.advancedban.manager.UUIDManager;
-import me.leoko.advancedban.manager.UpdateManager;
-import me.leoko.advancedban.utils.InterimData;
-import me.leoko.advancedban.utils.Punishment;
-import net.md_5.bungee.api.ChatColor;
-import org.apache.commons.io.FileUtils;
 
 /**
  * Created by Leoko @ dev.skamps.eu on 23.07.2016.
